@@ -1,6 +1,8 @@
 # movies-spinoff-mongodb
 Brief spinoff #3
 
+- un fichier Jupyter qui montre les scripts et leurs résultats - un screenshot de la base JSON sur MongoDB Compass - tout ceci sur votre branche sur un dépôt GitHub [movies-spinoff-mongodb]
+
 
 Contexte du projet
 
