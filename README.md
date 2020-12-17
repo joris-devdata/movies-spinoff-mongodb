@@ -1,39 +1,36 @@
-# movies-spinoff-mongodb
-Brief spinoff #3
+Plan du POC :
 
-- un fichier Jupyter qui montre les scripts et leurs résultats - un screenshot de la base JSON sur MongoDB Compass - tout ceci sur votre branche sur un dépôt GitHub [movies-spinoff-mongodb]
+## 1. Contexte du projet
+
+La Startup dans laquelle vous travaillez souhaiterait présenter une évolution intéressante et être force de proposition. En revanche, comme elle n'est pas riche et en même temps vous faites partie de la communauté Open Source Soldat (OSS42) et Ninja, elle souhaite de votre part que vous lui présentiez un POC sur cette base > défi relevé !
+
+## 2. Installation et mise en place de MongoDB Community Edition en local
+
+Pas à pas de l'installation et comment vérifier la bonne installation du logiciel
 
 
-Contexte du projet
+## 3. Création de la base de donnée d'une collection Movies et de documents à partir du CSV Movies small avec Python3
 
-La Startup dans laquelle vous travaillez souhaiterait présenter une évolution intéressante et être force de proposition. En revanche, comme elle n'est pas riche et en même temps vous faites partie de la communauté Open Source Soldat (OSS42) et Ninja, elle souhaite de votre part que vous lui présentiez un POC sur cette base :
+Comment à l'aide du module pymongo pour Python, nous pouvons créer une Base de données sous MongoDB et analyse de la différence entre une SGBDr comme PostgreSQL et le NoSQL MongoDB.
 
-installation et mise en place de MongoDB Community Edition en local
-création d'une collection Movies et de documents à partir du CSV Movies small avec Python3
-visualisation parlante suite aux scripts python et aussi sur MongoDB Compass
+## 4. Visualisation parlante suite aux scripts python et aussi sur MongoDB Compass
 
-Modalités pédagogiques
-
-travail individuel avec l'appui d'un relais formateur.
-durée estimée : 2 jours
-
-Critères de performance
-
-dépôt GitHub propre et structuré avec des commits bien clairs clarté des commentaires de code clarté des infos explicatives et bien orthographiés sur README.md en respectant le Markdown les résultats doivent correspondre aux besoins ainsi que le résultat sur MongoDB Compass être en capacité de faire un pitch démo au Scrum Master
-
-Modalités d'évaluation
-
-Auto-evaluation des rendus en 1-1 avec le Scrum Master
+Permet de comparer les structures de cette base de données à celle que nous avons conçue sous PostgreSQL et comment la donnée est organisée.
 
 Ressources :
 
 1. tuto mongodb : https://stph.scenari-community.org/bdd/0/co/intro.html ;
+
 2. install mongodb : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/#install-mongodb-community-edition ;
+
 3. crud mongodb : https://docs.mongodb.com/manual/crud/ ;
+
 4. query mongodb : https://docs.mongodb.com/manual/tutorial/query-documents/ ;
+
 5. tuto pymongo : https://pymongo.readthedocs.io/en/stable/tutorial.html ;
+
 6. install pymongo : https://pymongo.readthedocs.io/en/stable/installation.html ;
-7. concept mongodb : https://stph.scenari-community.org/bdd/0/co/intro.html ;
 
-
+7. convertir des fichiers CSV :
+https://www.convertcsv.com/csv-to-json.htm
 
